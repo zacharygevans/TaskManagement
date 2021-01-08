@@ -20,9 +20,9 @@ class TodoItems extends Component {
  
     return (
       <ul className="theList">
-      <FlipMove duration={250} easing="ease-out"></FlipMove>    
+      <FlipMove duration={250} easing="ease-out"> 
           {listItems}
-          </FlipMove>    
+          </FlipMove>
       </ul>
     );
   }
