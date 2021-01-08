@@ -9,7 +9,7 @@ class TodoList extends Component {
     this.state = {
       items: []
     };
-  
+    
     this.addItem = this.addItem.bind(this);
     this.deleteItem = this.deleteItem.bind(this);
   }
@@ -34,6 +34,17 @@ class TodoList extends Component {
        
     e.preventDefault();
   }
+  
+  deleteItem(key) {
+    var filteredItems = this.state.items.filter(function (item) {
+      return (item.key !== key);
+    });
+   
+    this.setState({
+      items: filteredItems,
+    });
+  }
+
   render() {
     return (
       <div className="todoListMain">
