@@ -2,10 +2,6 @@
 	"folders": [
 		{
 			"path": ".."
-		},
-		{
-			"name": "React-To-Do",
-			"path": "../React-To-Do"
 		}
 	],
 	"settings": {}
