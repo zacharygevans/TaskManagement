@@ -1,9 +1,10 @@
 body {
-  padding: 50px;
+  margin: 0;
   background-color: #476a6f;
   font-family: sans-serif;
 }
-#container {
+.pageContent {
   display: flex;
   justify-content: center;
+  margin-top: 40px;
 }

@@ -11,17 +11,16 @@
     margin-right: 0px;
     background-color: #ecbeb4;
     color: #FFF;
-    border: 2px solid #ecbeb4;
+    border: 5px solid #ecbeb4;
   }
   .todoListMain .header button:hover {
     background-color: #ecbeb4;
-    border: 2px solid #ecbeb4;
+    border: 5px solid #ecbeb4;
     cursor: pointer;
   }
   .todoListMain .theList {
     list-style: none;
     padding-left: 0;
-    width: 300px;
   } 
   .todoListMain .theList li {
     color: #333;
@@ -30,7 +29,13 @@
     margin-bottom: 15px;
     border-radius: 5px;
     list-style: none;
+    position: relative;
   }
+  .todoListMain .theList li button {
+    position: absolute;
+    right: 10px;
+    top: 14px;
+}
   ul.theList {
     padding: 0;
   }
